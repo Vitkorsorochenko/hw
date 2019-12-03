@@ -29,8 +29,8 @@ body {
 
 .header-text {
   margin-top: 50px;
-padding-left: 3px;
-letter-spacing: 0.28px;
+  padding-left: 3px;
+  letter-spacing: 0.28px;
 }
 
 .header-text h1 {
@@ -141,24 +141,24 @@ letter-spacing: 0.28px;
 
 .conteiner p {
   margin-bottom: 130px;
-text-align: center;
-text-transform: lowercase;
-color:#ffe600;
-font-size: 15px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #ffe600;
+  font-size: 15px;
 }
 
 .block-main {
   display: flex;
   justify-content: space-around;
 }
-.block-main p{
-  color:#8e8e8e;
+
+.block-main p {
+  color: #8e8e8e;
 }
 
 .block01, .block02, .block03 {
   width: 300px;
 }
-
 
 .number {
   display: flex;
@@ -191,9 +191,9 @@ font-size: 15px;
 
 .data {
   padding-top: 227px;
-margin: auto;
-width: 700px;
-padding-left: 22px;
+  margin: auto;
+  width: 700px;
+  padding-left: 22px;
 }
 
 .data h5 {
@@ -243,7 +243,7 @@ padding-left: 22px;
   font-size: 15px;
   color: #ffeb33;
   padding-top: 7px;
-padding-left: 7px;
+  padding-left: 7px;
 }
 
 .gallery {
@@ -254,7 +254,8 @@ padding-left: 7px;
   padding-left: 11px;
   justify-content: space-between;
 }
-.gallery li{
+
+.gallery li {
   list-style-type: none;
 }
 
@@ -440,14 +441,17 @@ textarea::-webkit-input-placeholder {
   padding: 19px;
   margin-bottom: 114px;
 }
-.footer{
-  background:#131316;
+
+.footer {
+  background: #131316;
   width: 100%;
 }
-.footer-conteiner{
+
+.footer-conteiner {
   width: 973px;
-  margin:auto;
+  margin: auto;
 }
+
 .footer-item {
   margin-top: 100px;
   height: 100px;
@@ -466,8 +470,4 @@ textarea::-webkit-input-placeholder {
   float: right;
   text-decoration: none;
   margin-right: 35px;
-}
-
-.social .fb li {
-  margin-top: -15px;
 }
