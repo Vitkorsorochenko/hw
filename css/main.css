@@ -79,10 +79,10 @@ body {
 }
 
 .logo-nav {
-  padding: 35px 0px 60px 20px;
-  width: 1136px;
-  height: 120px;
-  margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 28px 0px 52px 18px;
+    align-items: baseline;
 }
 
 .nav {
