@@ -10,11 +10,12 @@ body {
   min-width: 400px;
   width: 100%;
   background: #89898b;
-  height: 890px;
+  height: 860px;
 }
 
 .header-content {
-  padding-top: 100px;
+  padding-left: 50px;
+  padding-top: 111px;
   width: 775px;
   margin: auto;
 }
@@ -27,30 +28,32 @@ body {
 }
 
 .header-text {
-  margin-top: 56px;
+  margin-top: 50px;
+padding-left: 3px;
+letter-spacing: 0.28px;
 }
 
 .header-text h1 {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 56px;
 }
 
 .header-text h2 {
+  margin-top: 51px;
   text-align: center;
   color: #ffe600;
   font-size: 40px;
-  margin-bottom: 200px;
+  margin-bottom: 116px;
 }
 
 .header-button {
   text-align: center;
-  padding: 23px 0 23px 0;
+  padding: 20px 0px 23px 0px;
   margin: auto;
   width: 232px;
-  border: 1px solid #ffe600;
+  border: 1px solid#ffe600;
 }
 
 .header-button a {
@@ -76,7 +79,7 @@ body {
 }
 
 .logo-nav {
-  padding: 35px 0px 61px 0px;
+  padding: 35px 0px 60px 20px;
   width: 1136px;
   height: 120px;
   margin: auto;
@@ -102,7 +105,6 @@ body {
 }
 
 .nav ul li {
-  padding-right: 43px;
   float: left;
 }
 
@@ -119,7 +121,7 @@ body {
 
 .main {
   width: 100%;
-  margin-bottom: 150px;
+  margin-bottom: -5px;
 }
 
 .conteiner {
@@ -133,15 +135,16 @@ body {
   color: #000;
   font-size: 25px;
   text-transform: uppercase;
-  padding-bottom: 32px;
+  padding-bottom: 28px;
+  padding-left: 51px;
 }
 
 .conteiner p {
   margin-bottom: 130px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffe600;
-  font-size: 15px;
+text-align: center;
+text-transform: lowercase;
+color:#ffe600;
+font-size: 15px;
 }
 
 .block-main {
@@ -156,17 +159,6 @@ body {
   width: 300px;
 }
 
-.block01, .block02, .block03 span {
-  text-align: center;
-  display: block;
-  color: #bfbfbf;
-  font-size: 15px;
-}
-
-.text {
-  display: flex;
-  padding: 0px 66px 0px 41px;
-}
 
 .number {
   display: flex;
@@ -179,6 +171,7 @@ body {
   padding: 10px;
   width: 50px;
   height: 40px;
+  color: #ffe600;
 }
 
 .number h4 {
@@ -192,31 +185,33 @@ body {
 
 .conteiner-yellow {
   width: 100%;
-  height: 500px;
+  height: 598px;
   background: #ffeb33;
 }
 
 .data {
-  padding-top: 246px;
-  margin: auto;
-  width: 700px;
+  padding-top: 227px;
+margin: auto;
+width: 700px;
+padding-left: 22px;
 }
 
 .data h5 {
   font-family: "roboto-light", serif;
   font-size: 25px;
   text-align: center;
-  line-height: 40px;
+  line-height: 62px;
 }
 
 .data p {
-  line-height: 40px;
+  line-height: 49px;
 }
 
-.data h6 {
+.data span {
   font-family: "roboto-light", serif;
   font-size: 25px;
   text-align: center;
+  padding-left: 41px;
 }
 
 .data p {
@@ -228,23 +223,27 @@ body {
 .porfolio {
   margin: auto;
   width: 1176px;
-  margin-bottom: 130px;
+  margin-bottom: 109px;
 }
 
 .data-porfolio {
+  padding-left: 62px;
   margin-bottom: 120px;
-  margin-top: 100px;
+  margin-top: 120px;
   text-align: center;
 }
 
-.data-porfolio h7 {
+.data-porfolio span {
   font-size: 25px;
 }
 
 .data-porfolio p {
-  margin-top: 30px;
+  padding-left: 65px;
+  margin-top: 12px;
   font-size: 15px;
   color: #ffeb33;
+  padding-top: 7px;
+padding-left: 7px;
 }
 
 .gallery {
@@ -252,6 +251,7 @@ body {
   width: 1136px;
   margin: auto;
   flex-wrap: wrap;
+  padding-left: 11px;
   justify-content: space-between;
 }
 .gallery li{
@@ -261,8 +261,8 @@ body {
 .block-gallery {
   margin-bottom: 20px;
   background: #f3f3f3;
-  width: 270px;
-  height: 201px;
+  width: 272px;
+  height: 200px;
 }
 
 .block-gallery span {
@@ -287,32 +287,35 @@ body {
 
 .arrow {
   margin: auto;
-  margin-top: 50px;
+  margin-top: 25px;
   width: 50px;
+  padding-left: 22px;
 }
 
 .clients {
-  height: 600px;
+  height: 500px;
   width: 100%;
   background: #424245;
 }
 
 .data-clients {
-  padding-top: 130px;
+  padding-top: 120px;
   text-align: center;
   margin: auto;
   width: 1176px;
-  height: 500px;
+  height: 316px;
 }
 
-.clients h8 {
+.clients span {
+  padding-left: 33px;
   color: #fff;
   font-size: 25px;
   margin-top: 120px;
 }
 
 .clients p {
-  margin-top: 35px;
+  padding-left: 52px;
+  margin-top: 23px;
   color: #ffe600;
   font-size: 15px;
 }
@@ -438,13 +441,15 @@ textarea::-webkit-input-placeholder {
   margin-bottom: 114px;
 }
 .footer{
-  background:#000;
+  background:#131316;
   width: 100%;
 }
-
+.footer-conteiner{
+  width: 973px;
+  margin:auto;
+}
 .footer-item {
   margin-top: 100px;
-  background: #131316;
   height: 100px;
   background-size: cover;
   width: 100%;
@@ -454,7 +459,6 @@ textarea::-webkit-input-placeholder {
   color: #ffe600;
   font-size: 13px;
   padding-top: 46px;
-  padding-left: 67px;
 }
 
 .social li {
